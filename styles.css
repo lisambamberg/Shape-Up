@@ -21,25 +21,25 @@
 }
 
 .rectangle {
-    background-color: rgb(74, 247, 117);
+    background-color: rgb(1, 84, 22);
     display: none;
     position: absolute;
 }
 
 .square {
-    background-color: rgb(245, 78, 66);
+    background-color: rgb(136, 13, 4);
     display: none;
     position: absolute;
 }
 
 .circle {
-    background-color: rgb(106, 42, 201);
+    background-color: rgb(38, 3, 90);
     display: none;
     position: absolute;
 }
 
 .triangle {
-    background-color: rgb(240, 235, 113);
+    background-color: rgb(192, 186, 11);
     display: none;
     position: absolute;
 }
