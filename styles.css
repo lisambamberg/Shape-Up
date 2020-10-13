@@ -3,13 +3,17 @@
     width: 600px;
     background-color: linen;
     position: relative;
+    border: 1px solid black;
 }
 
 #informationContainer {
     height: 600px;
-    width: 600px;
+    width: 300px;
     background-color: peachpuff;
     position: relative;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
 }
 
 #container {
