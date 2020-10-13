@@ -22,24 +22,16 @@
 
 .rectangle {
     background-color: rgb(1, 84, 22);
-    display: none;
-    position: absolute;
 }
 
 .square {
     background-color: rgb(136, 13, 4);
-    display: none;
-    position: absolute;
 }
 
 .circle {
     background-color: rgb(38, 3, 90);
-    display: none;
-    position: absolute;
 }
 
 .triangle {
     background-color: rgb(192, 186, 11);
-    display: none;
-    position: absolute;
 }

@@ -5,53 +5,56 @@ const circleBtn = document.getElementById("circleBtn");
 const triangleBtn = document.getElementById("triangleBtn");
 
 class Shape {
-    constructor(width, height) {
-        this.Width = width;
-        this.Height = height;
-        this.shape = document.getElementById("div");
-        this.shape.style.left = `${x}px`,
-            this.shape.style.top = `${y}px`
-        shapeContainer.appendChild(this.shape);
+    constructor(height, width) {
+    this.height = height;
+    this.width = width;
     }
 }
 
 class Rectangle extends Shape {
-    constructor(rectWidth, rectHeight) {
-        super(width, height);
-        this.shape.addClass("rectangle");
-        this.shape.style.width = `${rectWidth}px`,
-            this.shape.style.height = `${rectHeight}px`
-        shapeContainer.append(this.shape)
+    constructor(height, width) {
+        super(height, width);
+        this.rectangle = document.createElement("div");
+        this.rectangle.classList.add("rectangle");
+        this.rectangle.style.width = `${this.width}px`,
+            this.rectangle.style.height = `${this.height}px`
+        shapeContainer.append(this.rectangle)
     }
 }
 
 class Square extends Shape {
-    constructor(squareSideLength) {
-        super()
-        this.shape.addClass("sqaure");
-        this.shape.style.width = `${squareSideLength}px`,
-            this.shape.style.height = `${squareSideLength}px`,
-            shapeContainer.append(this.shape);
+    constructor(height, width, squareSideLength) {
+        super(height, width)
+        this.squareSideLength = squareSideLength;
+        this.square = document.createElement("div");
+        this.square.classList.add("sqaure");
+        this.square.style.width = `${this.squareSideLength}px`,
+            this.square.style.height = `${this.squareSideLength}px`,
+            shapeContainer.append(this.square);
     }
 }
 
 class Circle extends Shape {
     constructor(circleRadius) {
         super()
-        this.shape.addClass("circle");
-        this.shape.style.width = `${circleRadius * 2}px`,
-            this.shape.style.height = `${circleRadius * 2}px`,
-            shapeContainer.append(this.shape);
+        this.circleRadius = circleRadius;
+        this.circle = document.createElement("div");
+        this.circle.classList.add("circle");
+        this.circle.style.width = `${this.circleRadius * 2}px`,
+            this.circle.style.height = `${this.circleRadius * 2}px`,
+            shapeContainer.append(this.circle);
     }
 }
 
 class Triangle extends Shape {
-    constructor(width, height) {
-        super(width, height)
-        this.shape.addClass("triangle");
-        this.shape.style.borderBottom = `${triangleSide}px`,
-            this.shape.style.borderRight = `${triangleSide}px`,
-            shapeContainer.append(this.shape)
+    constructor(triangleSide) {
+        super()
+        this.triangleSide = triangleSide;
+        this.triangle = document.createElement("div");
+        this.triangle.classList.add("triangle");
+        this.triangle.style.borderBottom = `${this.triangleSide}px`,
+            this.triangle.style.borderRight = `${this.triangleSide}px`,
+            shapeContainer.append(this.triangle)
     }
 }
 
