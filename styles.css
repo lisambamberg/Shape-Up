@@ -3,3 +3,19 @@
     width: 600px;
     background-color: linen;
 }
+
+#rectangle {
+    background-color: green;
+}
+
+#square {
+    background-color: red;
+}
+
+#circle {
+    background-color: purple;
+}
+
+#triangle {
+    background-color: yellow;
+}

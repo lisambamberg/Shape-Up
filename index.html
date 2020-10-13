@@ -9,26 +9,45 @@
 </head>
 
 <body>
+
+    <h1>Make a shape:</h1>
     <form>Rectangle
-        <input type="text" id="width" placeholder="Width"><label for="height"></label> <input type="text" id="height"
+        <input type="text" id="width" placeholder="Width"><label for="height"></label> <input type="text" id=""
             placeholder="Height"></form>
     <button type="button">submit</button>
-
+    <br><br>
     <form>Square
-        <input type="text" id="sidelength" placeholder="Side Length"> </form>
+        <input type="text" id="" placeholder="Side Length"> </form>
     <button type="button">submit</button>
-
+    <br><br>
     <form>Circle
-        <input type="text" id="radius" placeholder="Radius"> </form>
+        <input type="text" id="" placeholder="Radius"> </form>
     <button type="button">submit</button>
-
-    <form>Isoceles Right Triangle
-        <input type="text" id="triangleheight" placeholder="Height"> </form>
+    <br><br>
+    <form>Isosceles Right Triangle
+        <input type="text" id="" placeholder="Height"> </form>
     <button type="button">submit</button>
-
-
+    <br><br>
     <div id="shapeContainer"></div>
 
+
+    <div id="information">
+        <h1>Info about the shape:</h1>
+
+        <input type="text" name="shape" placeholder="Shape" id="shape" readonly>
+        <br> <br>
+        <input type="number" name="height" placeholder="Height" id="height" readonly>
+        <br> <br>
+        <input type="number" name="width" placeholder="Width" id="width" readonly>
+        <br> <br>
+        <input type="number" name="area" placeholder="Area" id="area" readonly>
+        <br> <br>
+        <input type="number" name="perimeter" placeholder="Perimeter" id="perimeter" readonly>
+        <br> <br>
+        <input type="number" name="radius" placeholder="Radius" id="radius" readonly>
+        <br>
+    </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
