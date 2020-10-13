@@ -5,25 +5,25 @@ class Shape {
 }
 
 class Circle extends Shape {
-    constructor() {
-
+    constructor(radius) {
+        super()
     }
 }
 
 class Triangle extends Shape {
-    constructor() {
-
+    constructor(height) {
+        super()
     }
 }
 
 class Rectangle extends Shape {
-    constructor() {
-
+    constructor(width, height) {
+        super()
     }
 }
 
 class Square extends Shape {
-    constructor() {
-
+    constructor(sideLength) {
+        super()
     }
 }

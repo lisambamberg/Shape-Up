@@ -2,20 +2,40 @@
     height: 600px;
     width: 600px;
     background-color: linen;
+    position: relative;
+}
+
+#informationContainer {
+    height: 600px;
+    width: 600px;
+    background-color: peachpuff;
+    position: relative;
+}
+
+#container {
+    display: flex;
 }
 
 #rectangle {
     background-color: green;
+    display: none;
+    position: absolute;
 }
 
 #square {
     background-color: red;
+    display: none;
+    position: absolute;
 }
 
 #circle {
     background-color: purple;
+    display: none;
+    position: absolute;
 }
 
 #triangle {
     background-color: yellow;
+    display: none;
+    position: absolute;
 }
