@@ -3,7 +3,7 @@
     width: 600px;
     background-color: linen;
     position: relative;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 #informationContainer {
@@ -11,7 +11,7 @@
     width: 300px;
     background-color: peachpuff;
     position: relative;
-    border: 1px solid black;
+    border: 1px solid grey;
     padding: 15px;
     text-align: center;
 }
@@ -20,26 +20,26 @@
     display: flex;
 }
 
-#rectangle {
-    background-color: green;
+.rectangle {
+    background-color: rgb(74, 247, 117);
     display: none;
     position: absolute;
 }
 
-#square {
-    background-color: red;
+.square {
+    background-color: rgb(245, 78, 66);
     display: none;
     position: absolute;
 }
 
-#circle {
-    background-color: purple;
+.circle {
+    background-color: rgb(106, 42, 201);
     display: none;
     position: absolute;
 }
 
-#triangle {
-    background-color: yellow;
+.triangle {
+    background-color: rgb(240, 235, 113);
     display: none;
     position: absolute;
 }
