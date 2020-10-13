@@ -12,27 +12,32 @@
 
     <h1>Make a shape:</h1>
     <form>Rectangle
-        <input type="text" id="rectwidth" placeholder="Width"><label for="rectheight"></label> <input type="text" id="height"
-            placeholder="Height"></form>
-    <button type="button" id="rectBtn">submit</button>
+        <input type="number" placeholder="Width" id="rectWidth">
+        <input type="number" placeholder="Height" id="rectHeight">
+        <input type="button" value="shape up!" class="button" id="rectBtn">
+    </form>
+
     <br><br>
     <form>Square
-        <input type="text" id="" placeholder="Side Length"> </form>
-    <button type="button" id="squareBtn">submit</button>
+        <input type="number" placeholder="Side Length" id="squareSideLength">
+        <input type="button" value="shape up!" class="button" id="squareBtn">
+    </form>
     <br><br>
+
     <form>Circle
-        <input type="text" id="" placeholder="Radius"> </form>
-    <button type="button" id="circleBtn">submit</button>
+        <input type="number" placeholder="Radius" id="circleRadius">
+        <input type="button" value="shape up!" class="button" id="circleBtn">
+    </form>
     <br><br>
+
     <form>Isosceles Right Triangle
-        <input type="text" id="" placeholder="Height"> </form>
-    <button type="button" id="triangleBtn">submit</button>
+        <input type="number" placeholder="Height" id="triangleSide">
+        <input type="button" value="shape up!" class="button" id="triangleBtn">
+    </form>
     <br><br>
 
     <div id="container">
         <div id="shapeContainer"></div>
-
-
         <div id="informationContainer">
             <h1>Info about the shape:</h1>
 
